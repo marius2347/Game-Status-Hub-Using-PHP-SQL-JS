@@ -91,15 +91,15 @@ Built with PHP, MySQL, JavaScript, and a clean CSS/HTML front end, GamesTP is fu
 
 ---
 
-## Screenshot
+## Screenshots
 
-![Desktop](desktop.png)  
-*Desktop*
+**Desktop**  
+![Desktop screenshot](desktop.png)
 
----
-![Mobile](mobile.png)  
-*Mobile*
----
+
+**Mobile**  
+![Mobile screenshot](mobile.png)
+
 
 ## Contact
 
