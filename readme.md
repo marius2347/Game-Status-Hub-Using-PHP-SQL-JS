@@ -1,4 +1,5 @@
-# GamesTP (Game Progress Tracker)
+# Game Status Hub Using PHP SQL JS
+
 
 ## Description
 **GamesTP** is a web application designed to help users catalog and track the progress of their video games. By uploading game titles, avatars, wallpapers, and trailer links, users can see at a glance which games they have finished, which are unfinished, and which they have just played. The site features:
@@ -93,9 +94,11 @@ Built with PHP, MySQL, JavaScript, and a clean CSS/HTML front end, GamesTP is fu
 ## Screenshot
 
 ![Desktop](desktop.png)  
+*Desktop*
 
-![Mobile](mobile.png)   
-
+---
+![Mobile](mobile.png)  
+*Mobile*
 ---
 
 ## Contact
