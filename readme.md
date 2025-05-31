@@ -103,8 +103,5 @@ Built with PHP, MySQL, JavaScript, and a clean CSS/HTML front end, GamesTP is fu
 
 ## Contact
 
-**Project Author**: Marius C.  
 **Email**: mariusc0023@gmail.com  
-
-Feel free to fork this repository, submit issues, or open a pull request for improvements. Enjoy tracking your game library!
 
