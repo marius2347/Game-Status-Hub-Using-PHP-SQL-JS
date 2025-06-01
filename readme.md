@@ -2,7 +2,7 @@
 
 
 ## Description
-**GamesTP** is a web application designed to help users catalog and track the progress of their video games. By uploading game titles, avatars, wallpapers, and trailer links, users can see at a glance which games they have finished, which are unfinished, and which they have just played. The site features:
+**GamesTP** is a web application designed to help users catalog and track the progress of their video games. By uploading game titles, avatars, and trailer links, users can see at a glance which games they have finished, which are unfinished, and which they have just played. The site features:
 - A modern, YouTube-inspired dark theme with responsive design (desktop and mobile).
 - Fuzzy groupings of games by status: “Story Completed,” “Story Not Completed,” and “Just Played.”
 - A search bar to quickly locate any game in the collection.
@@ -44,8 +44,7 @@ Built with PHP, MySQL, JavaScript, and a clean CSS/HTML front end, GamesTP is fu
      1. **Enter Game Title** (text)  
      2. **Select Status** (dropdown: STORY COMPLETED, STORY NOT COMPLETED, JUST PLAYED)  
      3. **Upload Avatar** (image file, recommended 420×200)  
-     4. **Upload Wallpaper** (image file, recommended 1920×1080)  
-     5. **Enter Trailer Link** (YouTube URL)  
+     4. **Enter Trailer Link** (YouTube URL)  
    - Upon successful upload, the new game is inserted into the database, and the user sees a toast notification in the top-right corner:  
      > **“Game successfully uploaded!”**
 
@@ -67,7 +66,7 @@ Built with PHP, MySQL, JavaScript, and a clean CSS/HTML front end, GamesTP is fu
      - Processing `$_POST['action']` (filters) vs. `$_POST['submit']` (search)  
      - Rendering the header, search bar, chips, upload button, and counters  
      - Querying the DB for games and rendering each thumbnail via a helper function (`showGame()`).  
-   - **`upload_game.php`**: Receives POST from the upload modal, saves the avatar/wallpaper in `/images` and `/wallpapers`, inserts a new row in `games`, then redirects back with a success message.  
+   - **`upload_game.php`**: Receives POST from the upload modal, saves the avatar in `/images`, inserts a new row in `games`, then redirects back with a success message.  
    - **`app.js`**: JavaScript that manages:  
      - Opening/closing the modals (clicking outside the box closes it)  
      - Validating admin password before showing the upload form  
