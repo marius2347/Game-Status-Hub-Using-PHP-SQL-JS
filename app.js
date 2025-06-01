@@ -1,14 +1,3 @@
-
-const arr = [];
-arr[0] = '';
-for(i = 1; i <= 100; i++) {
-    arr[i] = `"./wallpapers_change/image (${i}).jpg"`;
-}
-
-
-console.log(arr[50])
-
-
 // hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
