@@ -12,13 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $avatarFile = $avatarDir . $avatarName;
 
 
-        $wallpaperName = basename($_FILES['wallpaper']['name']);
-        $wallpaperDir = "wallpapers/";
-        $wallpaperFile = $wallpaperDir . $wallpaperName;
 
-
-        if (move_uploaded_file($_FILES['avatar']['tmp_name'], $avatarFile) &&
-            move_uploaded_file($_FILES['wallpaper']['tmp_name'], $wallpaperFile)) {
+        if (move_uploaded_file($_FILES['avatar']['tmp_name'], $avatarFile)) {
             
 
             $query = "INSERT INTO games (title, image, status, trailer) 
