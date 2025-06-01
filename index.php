@@ -103,11 +103,6 @@ if (message){
                 <input type="file" id="avatar" name="avatar" accept="image/*" required>
             </div>
 
-            <div class="upload-section">
-                <label for="wallpaper">Wallpaper Upload (1920×1080):</label>
-                <input type="file" id="wallpaper" name="wallpaper" accept="image/*" required>
-            </div>
-
             <input type="url" id="trailer" name="trailer" required placeholder="Trailer Link">
             <button type="submit" name="uploadGame">Upload Game</button>
         </form>
